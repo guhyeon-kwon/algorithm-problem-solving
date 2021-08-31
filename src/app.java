@@ -11,8 +11,11 @@ public class app {
 //        String str[] = {"test", "teacher", "tes", "t"};
 //        System.out.println(new inf_q3().slove(str));
 
-        String str = "banana";
-        System.out.println(new inf_q4().slove(str));
+//        String str = "banana";
+//        System.out.println(new inf_q4().slove(str));
+
+        int[] prices = {8,2,6,5,1,7,5};
+        System.out.println(new inf_q5().maxProfit(prices));
 
     }
 
