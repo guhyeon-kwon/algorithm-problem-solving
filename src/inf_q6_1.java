@@ -1,4 +1,7 @@
-public class inf_q6 {
+public class inf_q6_1 {
+    /*
+    subArray + sum
+     */
     public static int subarraySum(int[] nums, int k){
         int count = 0;
 

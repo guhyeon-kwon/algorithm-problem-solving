@@ -1,4 +1,7 @@
 public class inf_q5 {
+    /*
+    Array + Math.max()
+     */
     public static int maxProfit(int[] nums){
         if(nums.length==0) return 0;
 

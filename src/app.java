@@ -17,9 +17,13 @@ public class app {
 //        int[] prices = {8,2,6,5,1,7,5};
 //        System.out.println(new inf_q5().maxProfit(prices));
 
-        int[] nums = {3,4,7,2,-3,1,4,2};
+//        int[] nums = {3,4,7,2,-3,1,4,2};
+//        int k = 7;
+//        System.out.println(new inf_q6_1().subarraySum(nums, k));
+
+        int[] nums = {3, 4, 7, 2, -3, 1, 4, 2};
         int k = 7;
-        System.out.println(new inf_q6().subarraySum(nums, k));
+        System.out.println(new inf_q6_2().subarraySum_map(nums, k));
 
     }
 
