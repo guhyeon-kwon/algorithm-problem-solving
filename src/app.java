@@ -14,8 +14,12 @@ public class app {
 //        String str = "banana";
 //        System.out.println(new inf_q4().slove(str));
 
-        int[] prices = {8,2,6,5,1,7,5};
-        System.out.println(new inf_q5().maxProfit(prices));
+//        int[] prices = {8,2,6,5,1,7,5};
+//        System.out.println(new inf_q5().maxProfit(prices));
+
+        int[] nums = {3,4,7,2,-3,1,4,2};
+        int k = 7;
+        System.out.println(new inf_q6().subarraySum(nums, k));
 
     }
 
