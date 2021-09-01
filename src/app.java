@@ -21,9 +21,14 @@ public class app {
 //        int k = 7;
 //        System.out.println(new inf_q6_1().subarraySum(nums, k));
 
-        int[] nums = {3, 4, 7, 2, -3, 1, 4, 2};
-        int k = 7;
-        System.out.println(new inf_q6_2().subarraySum_map(nums, k));
+//        int[] nums = {3, 4, 7, 2, -3, 1, 4, 2};
+//        int k = 7;
+//        System.out.println(new inf_q6_2().subarraySum_map(nums, k));
+
+        int[][] grid = {{1,1,1},
+                        {1,0,1},
+                        {1,1,1}};
+        new inf_q7().solve(grid);
 
     }
 
