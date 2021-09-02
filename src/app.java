@@ -30,8 +30,12 @@ public class app {
 //                        {1,1,1}};
 //        new inf_q7().solve(grid);
 
-        String s = "inflearninlove";
-        System.out.println(new inf_q8_1().solve(s));
+//        String s = "inflearninlove";
+//        System.out.println(new inf_q8_1().solve(s));
+
+        int[] nums = {1,1,2,2,2,3,5,5,5,5};
+        int k = 2;
+        System.out.println(new inf_q8_2().topFrequent(nums, k));
 
     }
 
