@@ -25,10 +25,13 @@ public class app {
 //        int k = 7;
 //        System.out.println(new inf_q6_2().subarraySum_map(nums, k));
 
-        int[][] grid = {{1,1,1},
-                        {1,0,1},
-                        {1,1,1}};
-        new inf_q7().solve(grid);
+//        int[][] grid = {{1,1,1},
+//                        {1,0,1},
+//                        {1,1,1}};
+//        new inf_q7().solve(grid);
+
+        String s = "inflearninlove";
+        System.out.println(new inf_q8_1().solve(s));
 
     }
 
