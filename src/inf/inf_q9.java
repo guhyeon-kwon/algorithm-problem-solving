@@ -1,3 +1,5 @@
+package inf;
+
 public class inf_q9 {
     /*
     Sort - compareTo()
