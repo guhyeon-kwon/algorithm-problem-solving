@@ -33,9 +33,12 @@ public class app {
 //        String s = "inflearninlove";
 //        System.out.println(new inf_q8_1().solve(s));
 
-        int[] nums = {1,1,2,2,2,3,5,5,5,5};
-        int k = 2;
-        System.out.println(new inf_q8_2().topFrequent(nums, k));
+//        int[] nums = {1,1,2,2,2,3,5,5,5,5};
+//        int k = 2;
+//        System.out.println(new inf_q8_2().topFrequent(nums, k));
+
+        String version1 = "8.5.2.4", version2 = "8";
+        System.out.println(new inf_q9().solve(version1, version2));
 
     }
 
