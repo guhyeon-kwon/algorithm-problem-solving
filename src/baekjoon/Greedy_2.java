@@ -27,6 +27,6 @@ public class Greedy_2 {
 
         // 회의대 최대 갯수 출력
         String maxCount = br.readLine();
-        
+
     }
 }
