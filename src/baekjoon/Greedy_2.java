@@ -3,6 +3,10 @@ package baekjoon;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.Scanner;
 import java.util.StringTokenizer;
 
 public class Greedy_2 {
@@ -22,11 +26,47 @@ public class Greedy_2 {
      */
 
     public static void greedy() throws IOException {
-        // 값 입력
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        /*
+        1. 종료시간을 기준으로 정렬한다.
+        2. 이전 종료시간과 겹치지 않을 경우 직전 종료시간을 갱신하고 카운트를 늘린다.
+         */
+        Scanner in = new Scanner(System.in);
 
-        // 회의대 최대 갯수 출력
-        String maxCount = br.readLine();
+        int N = in.nextInt(); // 첫번째 줄은 전체 회의의 수 이므로 N은 전체 회의 수
 
+        int[][] time = new int[N][2];
+
+        for(int i = 0; i < N; i++){
+            time[i][0] = in.nextInt(); // 시작시간
+            time[i][1] = in.nextInt(); // 종료시간
+        }
+
+        // 1.
+        Arrays.sort(time, new Comparator<int[]>() {
+            @Override
+            public int compare(int[] o1, int[] o2) {
+                // 종료시간이 같을경우 시작시간이 빠른 순으로 정렬
+                if(o1[1] == o2[1]){
+                    return o1[0] - o2[0];
+                }
+                return o1[1] - o2[1];
+            }
+        });
+
+        // 결과값
+        int count = 0;
+        // 직전 종료시간
+        int prev_end_time = 0;
+
+        // 2.
+        for(int i = 0; i < N; i++){
+            // 직전 종료시간이 시작시간보다 작거나 같을경우 직전 종료시간을 갱신하고 카운트를 늘린다
+            if(prev_end_time <= time[i][0]){
+                prev_end_time = time[i][1];
+                count++;
+            }
+        }
+
+        System.out.println(count);
     }
 }
