@@ -1,5 +1,7 @@
 import baekjoon.Greedy_1;
 import baekjoon.Greedy_2;
+import baekjoon.Greedy_3;
+import baekjoon.Greedy_4;
 
 import java.io.IOException;
 
@@ -50,8 +52,11 @@ public class app {
 
 //        new Greedy_1().greedy();
 
-        new Greedy_2().greedy();
+//        new Greedy_2().greedy();
 
+//        System.out.println(new Greedy_3().greedy());
+
+        System.out.println(new Greedy_4().greedy());
     }
 
 
