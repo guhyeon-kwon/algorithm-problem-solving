@@ -1,4 +1,6 @@
-import baekjoon.*;
+import baekjoon.greedy.Greedy_5;
+import baekjoon.ifQ.LeapYear;
+import baekjoon.ifQ.Quadrant;
 
 import java.io.IOException;
 
@@ -55,7 +57,11 @@ public class app {
 
 //        System.out.println(new Greedy_4().greedy());
 
-        new Greedy_5().greedy();
+//        new Greedy_5().greedy();
+
+//        new LeapYear().solve();
+
+        new Quadrant().solve();
     }
 
 
