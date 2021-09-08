@@ -1,3 +1,4 @@
+import baekjoon.arr.Max;
 import baekjoon.arr.MaxMin;
 import baekjoon.forQ.Gugudan;
 import baekjoon.forQ.Snum;
@@ -77,6 +78,8 @@ public class app {
 
 //        new Snum().solve();
 
-        new MaxMin().solve();
+//        new MaxMin().solve();
+
+        new Max().solve();
     }
 }
