@@ -1,4 +1,6 @@
+import baekjoon.forQ.Gugudan;
 import baekjoon.greedy.Greedy_5;
+import baekjoon.ifQ.Alarm;
 import baekjoon.ifQ.LeapYear;
 import baekjoon.ifQ.Quadrant;
 
@@ -61,8 +63,10 @@ public class app {
 
 //        new LeapYear().solve();
 
-        new Quadrant().solve();
+//        new Quadrant().solve();
+
+//        new Alarm().solve();
+
+        new Gugudan().solve();
     }
-
-
 }
