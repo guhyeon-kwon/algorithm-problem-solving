@@ -1,6 +1,7 @@
 import baekjoon.arr.Max;
 import baekjoon.arr.MaxMin;
 import baekjoon.arr.NumCount;
+import baekjoon.arr.Rest;
 import baekjoon.forQ.Gugudan;
 import baekjoon.forQ.Snum;
 import baekjoon.forQ.Star;
@@ -83,7 +84,9 @@ public class app {
 
 //        new Max().solve();
 
-        new NumCount().solve();
+//        new NumCount().solve();
+
+        new Rest().solve();
     }
 
 }
