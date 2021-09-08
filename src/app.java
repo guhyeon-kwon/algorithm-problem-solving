@@ -1,10 +1,13 @@
 import baekjoon.forQ.Gugudan;
+import baekjoon.forQ.Snum;
+import baekjoon.forQ.Star;
 import baekjoon.greedy.Greedy_5;
 import baekjoon.ifQ.Alarm;
 import baekjoon.ifQ.LeapYear;
 import baekjoon.ifQ.Quadrant;
 
 import java.io.IOException;
+import java.util.Arrays;
 
 public class app {
     public static void main(String[] args) throws IOException {
@@ -67,6 +70,10 @@ public class app {
 
 //        new Alarm().solve();
 
-        new Gugudan().solve();
+//        new Gugudan().solve();
+
+//        new Star().solve();
+
+        new Snum().solve();
     }
 }
