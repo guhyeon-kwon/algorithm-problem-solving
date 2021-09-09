@@ -87,7 +87,9 @@ public class app {
 
 //        new Average().solve();
 
-        new Ox().solve();
+//        new Ox().solve();
+
+        new AverageOver().solve();
     }
 
 }
