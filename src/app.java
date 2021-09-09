@@ -1,3 +1,4 @@
+import baekjoon.FunctionQ.Hansu;
 import baekjoon.FunctionQ.Nsum;
 import baekjoon.FunctionQ.SelfNum;
 import baekjoon.arr.*;
@@ -99,7 +100,9 @@ public class app {
 //        arr[2] = 3;
 //        System.out.println(new Nsum().sum(arr));
 
-        System.out.println(new SelfNum().solve());
+//        System.out.println(new SelfNum().solve());
+
+        new Hansu().solve();
     }
 
 }
