@@ -1,3 +1,4 @@
+import baekjoon.FunctionQ.Nsum;
 import baekjoon.arr.*;
 import baekjoon.forQ.Gugudan;
 import baekjoon.forQ.Snum;
@@ -89,7 +90,13 @@ public class app {
 
 //        new Ox().solve();
 
-        new AverageOver().solve();
+//        new AverageOver().solve();
+
+        int[] arr = new int[3];
+        arr[0] = 1;
+        arr[1] = 2;
+        arr[2] = 3;
+        System.out.println(new Nsum().sum(arr));
     }
 
 }
