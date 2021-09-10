@@ -1,5 +1,6 @@
 import baekjoon.FunctionQ.Nsum;
 import baekjoon.FunctionQ.SelfNum;
+import baekjoon.StringQ.AlphabetSearch;
 import baekjoon.arr.*;
 import baekjoon.forQ.Gugudan;
 import baekjoon.forQ.Snum;
@@ -99,7 +100,9 @@ public class app {
 //        arr[2] = 3;
 //        System.out.println(new Nsum().sum(arr));
 
-        System.out.println(new SelfNum().solve());
+//        System.out.println(new SelfNum().solve());
+
+        new AlphabetSearch().solve();
     }
 
 }
