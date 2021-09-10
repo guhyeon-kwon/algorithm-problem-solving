@@ -2,6 +2,7 @@ import baekjoon.FunctionQ.Nsum;
 import baekjoon.FunctionQ.SelfNum;
 import baekjoon.StringQ.AlphabetSearch;
 import baekjoon.StringQ.StringRepetition;
+import baekjoon.StringQ.WordCount;
 import baekjoon.StringQ.WordStudy;
 import baekjoon.arr.*;
 import baekjoon.forQ.Gugudan;
@@ -108,7 +109,9 @@ public class app {
 
 //        new StringRepetition().solve();
 
-        new WordStudy().solve();
+//        new WordStudy().solve();
+
+        new WordCount().solve();
     }
 
 }
