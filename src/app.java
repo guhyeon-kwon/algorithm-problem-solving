@@ -110,7 +110,9 @@ public class app {
 
 //        new WordCount().solve();
 
-        new Sangsu().solve();
+//        new Sangsu().solve();
+
+        new Dial().solve();
     }
 
 }
