@@ -1,4 +1,5 @@
 import baekjoon.BasicMath1.BreakEvenPoint;
+import baekjoon.BasicMath1.FractionSearch;
 import baekjoon.BasicMath1.Honeycomb;
 import baekjoon.FunctionQ.Nsum;
 import baekjoon.FunctionQ.SelfNum;
@@ -120,7 +121,9 @@ public class app {
 
 //        new BreakEvenPoint().solve();
 
-        new Honeycomb().solve();
+//        new Honeycomb().solve();
+
+        new FractionSearch().solve();
     }
 
 }
