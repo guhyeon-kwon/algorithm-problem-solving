@@ -112,7 +112,9 @@ public class app {
 
 //        new Sangsu().solve();
 
-        new Dial().solve();
+//        new Dial().solve();
+
+        new GroupWordCheck().solve();
     }
 
 }
