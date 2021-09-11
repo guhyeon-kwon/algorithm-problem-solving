@@ -1,3 +1,4 @@
+import baekjoon.BasicMath1.BreakEvenPoint;
 import baekjoon.FunctionQ.Nsum;
 import baekjoon.FunctionQ.SelfNum;
 import baekjoon.StringQ.*;
@@ -114,7 +115,9 @@ public class app {
 
 //        new Dial().solve();
 
-        new GroupWordCheck().solve();
+//        new GroupWordCheck().solve();
+
+        new BreakEvenPoint().solve();
     }
 
 }
