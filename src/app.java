@@ -1,7 +1,4 @@
-import baekjoon.BasicMath1.BreakEvenPoint;
-import baekjoon.BasicMath1.FractionSearch;
-import baekjoon.BasicMath1.Honeycomb;
-import baekjoon.BasicMath1.Snail;
+import baekjoon.BasicMath1.*;
 import baekjoon.FunctionQ.Nsum;
 import baekjoon.FunctionQ.SelfNum;
 import baekjoon.StringQ.*;
@@ -126,7 +123,9 @@ public class app {
 
 //        new FractionSearch().solve();
 
-        new Snail().solve();
+//        new Snail().solve();
+
+        new ACMHotel().solve();
     }
 
 }
