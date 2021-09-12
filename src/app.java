@@ -127,7 +127,9 @@ public class app {
 
 //        new ACMHotel().solve();
 
-        new Chairman().solve();
+//        new Chairman().solve();
+
+        new SugarDelivery().solve();
     }
 
 }
