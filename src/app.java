@@ -125,7 +125,9 @@ public class app {
 
 //        new Snail().solve();
 
-        new ACMHotel().solve();
+//        new ACMHotel().solve();
+
+        new Chairman().solve();
     }
 
 }
