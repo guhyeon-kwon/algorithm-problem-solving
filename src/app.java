@@ -131,7 +131,9 @@ public class app {
 
 //        new SugarDelivery().solve();
 
-        new BigNumAplusB().solve();
+//        new BigNumAplusB().solve();
+
+        new FlyMeAlphaCentauri().solve();
     }
 
 }
