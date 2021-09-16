@@ -1,4 +1,5 @@
 import baekjoon.BasicMath1.*;
+import baekjoon.BasicMath2.Decimal;
 import baekjoon.FunctionQ.Nsum;
 import baekjoon.FunctionQ.SelfNum;
 import baekjoon.StringQ.*;
@@ -133,7 +134,9 @@ public class app {
 
 //        new BigNumAplusB().solve();
 
-        new FlyMeAlphaCentauri().solve();
+//        new FlyMeAlphaCentauri().solve();
+
+        new Decimal().solve();
     }
 
 }
