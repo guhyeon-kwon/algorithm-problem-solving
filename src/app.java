@@ -1,4 +1,5 @@
 import baekjoon.BasicMath1.*;
+import baekjoon.BasicMath2.Bertrand;
 import baekjoon.BasicMath2.Decimal;
 import baekjoon.BasicMath2.Decimal2;
 import baekjoon.FunctionQ.Nsum;
@@ -139,7 +140,9 @@ public class app {
 
 //        new Decimal().solve();
 
-        new Decimal2().solve();
+//        new Decimal2().solve();
+
+        new Bertrand().solve();
     }
 
 }
