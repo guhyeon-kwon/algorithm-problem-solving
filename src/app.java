@@ -1,8 +1,5 @@
 import baekjoon.BasicMath1.*;
-import baekjoon.BasicMath2.Bertrand;
-import baekjoon.BasicMath2.Decimal;
-import baekjoon.BasicMath2.Decimal2;
-import baekjoon.BasicMath2.Goldbach;
+import baekjoon.BasicMath2.*;
 import baekjoon.FunctionQ.Nsum;
 import baekjoon.FunctionQ.SelfNum;
 import baekjoon.StringQ.*;
@@ -145,7 +142,11 @@ public class app {
 
 //        new Bertrand().solve();
 
-        new Goldbach().solve();
+//        new Goldbach().solve();
+
+//        new RectangleEscape().solve();
+
+        new FourthDot().solve();
     }
 
 }
