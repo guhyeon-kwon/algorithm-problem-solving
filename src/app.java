@@ -146,7 +146,9 @@ public class app {
 
 //        new RectangleEscape().solve();
 
-        new FourthDot().solve();
+//        new FourthDot().solve();
+
+        new Triangle().solve();
     }
 
 }
