@@ -148,7 +148,9 @@ public class app {
 
 //        new FourthDot().solve();
 
-        new Triangle().solve();
+//        new Triangle().solve();
+
+        new TaxiGeometry().solve();
     }
 
 }
