@@ -150,7 +150,9 @@ public class app {
 
 //        new Triangle().solve();
 
-        new TaxiGeometry().solve();
+//        new TaxiGeometry().solve();
+
+        new Turret().solve();
     }
 
 }
