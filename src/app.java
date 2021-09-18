@@ -13,6 +13,7 @@ import baekjoon.ifQ.LeapYear;
 import baekjoon.ifQ.Quadrant;
 import baekjoon.recursive.Factorial;
 import baekjoon.recursive.Fibonacci;
+import baekjoon.recursive.HanoiTower;
 import baekjoon.recursive.StarChoice;
 
 import java.io.IOException;
@@ -161,7 +162,9 @@ public class app {
 
 //        new Fibonacci().solve();
 
-        new StarChoice().solve();
+//        new StarChoice().solve();
+
+        new HanoiTower().solve();
     }
 
 }
