@@ -13,6 +13,7 @@ import baekjoon.ifQ.LeapYear;
 import baekjoon.ifQ.Quadrant;
 import baekjoon.recursive.Factorial;
 import baekjoon.recursive.Fibonacci;
+import baekjoon.recursive.StarChoice;
 
 import java.io.IOException;
 import java.util.Arrays;
@@ -158,7 +159,9 @@ public class app {
 
 //        new Factorial().solve();
 
-        new Fibonacci().solve();
+//        new Fibonacci().solve();
+
+        new StarChoice().solve();
     }
 
 }
