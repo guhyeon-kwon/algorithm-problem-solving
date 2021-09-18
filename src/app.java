@@ -12,6 +12,7 @@ import baekjoon.ifQ.Alarm;
 import baekjoon.ifQ.LeapYear;
 import baekjoon.ifQ.Quadrant;
 import baekjoon.recursive.Factorial;
+import baekjoon.recursive.Fibonacci;
 
 import java.io.IOException;
 import java.util.Arrays;
@@ -155,7 +156,9 @@ public class app {
 
 //        new Turret().solve();
 
-        new Factorial().solve();
+//        new Factorial().solve();
+
+        new Fibonacci().solve();
     }
 
 }
