@@ -11,6 +11,7 @@ import baekjoon.greedy.Greedy_5;
 import baekjoon.ifQ.Alarm;
 import baekjoon.ifQ.LeapYear;
 import baekjoon.ifQ.Quadrant;
+import baekjoon.recursive.Factorial;
 
 import java.io.IOException;
 import java.util.Arrays;
@@ -152,7 +153,9 @@ public class app {
 
 //        new TaxiGeometry().solve();
 
-        new Turret().solve();
+//        new Turret().solve();
+
+        new Factorial().solve();
     }
 
 }
