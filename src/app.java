@@ -4,6 +4,7 @@ import baekjoon.FunctionQ.Nsum;
 import baekjoon.FunctionQ.SelfNum;
 import baekjoon.StringQ.*;
 import baekjoon.arr.*;
+import baekjoon.bruteForce.BigBody;
 import baekjoon.bruteForce.BlackJack;
 import baekjoon.bruteForce.Decomposition;
 import baekjoon.forQ.Gugudan;
@@ -170,7 +171,9 @@ public class app {
 
 //        new BlackJack().solve();
 
-        new Decomposition().solve();
+//        new Decomposition().solve();
+
+        new BigBody().solve();
     }
 
 }
