@@ -5,6 +5,7 @@ import baekjoon.FunctionQ.SelfNum;
 import baekjoon.StringQ.*;
 import baekjoon.arr.*;
 import baekjoon.bruteForce.BlackJack;
+import baekjoon.bruteForce.Decomposition;
 import baekjoon.forQ.Gugudan;
 import baekjoon.forQ.Snum;
 import baekjoon.forQ.Star;
@@ -167,7 +168,9 @@ public class app {
 
 //        new HanoiTower().solve();
 
-        new BlackJack().solve();
+//        new BlackJack().solve();
+
+        new Decomposition().solve();
     }
 
 }
