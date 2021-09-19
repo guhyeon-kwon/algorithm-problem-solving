@@ -4,6 +4,7 @@ import baekjoon.FunctionQ.Nsum;
 import baekjoon.FunctionQ.SelfNum;
 import baekjoon.StringQ.*;
 import baekjoon.arr.*;
+import baekjoon.bruteForce.BlackJack;
 import baekjoon.forQ.Gugudan;
 import baekjoon.forQ.Snum;
 import baekjoon.forQ.Star;
@@ -164,7 +165,9 @@ public class app {
 
 //        new StarChoice().solve();
 
-        new HanoiTower().solve();
+//        new HanoiTower().solve();
+
+        new BlackJack().solve();
     }
 
 }
