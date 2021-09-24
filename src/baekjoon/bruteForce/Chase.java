@@ -36,6 +36,9 @@ public class Chase {
     기대값 => 1
      */
 
+    public static boolean[][] arr;
+    public static int min = 64; // 체스판의 크기 8*8
+
     public static void solve() throws IOException {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -45,79 +48,52 @@ public class Chase {
         int N = Integer.parseInt(st.nextToken());
         int M = Integer.parseInt(st.nextToken());
 
-        char[][] arr = new char[N][M]; // 입력값 배열
-        char[][] arr1 = new char[N][M]; // 흰색으로 시작하는 배열
-        char[][] arr2 = new char[N][M]; // 검은색으로 시작하는 배열
+        arr = new boolean[N][M]; // 입력값 배열
 
-        arr1[0][0] = 'W';
-        arr2[0][0] = 'B';
+        for(int i=0; i <N; i++){
+            String str = br.readLine();
 
-        // 입력값을 배열로 만듬
-        for (int i = 0; i < N; i++) {
-            String tempCh = br.readLine();
-            for (int j = 0; j < M; j++) {
-                arr[i][j] = tempCh.charAt(j);
-
-                if(i != 0){
-                    if(j == 0){
-                        if (arr1[i-1][0] == 'B'){
-                            arr1[i][0] = 'W';
-                        } else if(arr1[i-1][0] == 'W'){
-                            arr1[i][0] = 'B';
-                        }
-
-                        if (arr2[i-1][0] == 'B'){
-                            arr2[i][0] = 'W';
-                        } else if(arr2[i-1][0] == 'W'){
-                            arr2[i][0] = 'B';
-                        }
-
-                    } else if(j != 0){
-                        if(arr1[i][j-1] == 'W'){
-                            arr1[i][j] = 'B';
-                        } else if(arr1[i][j-1] == 'B'){
-                            arr1[i][j] = 'W';
-                        }
-
-                        if(arr2[i][j-1] == 'W'){
-                            arr2[i][j] = 'B';
-                        } else if(arr2[i][j-1] == 'B'){
-                            arr2[i][j] = 'W';
-                        }
-                    }
-                } else if(i == 0 && j != 0){
-                    if(arr1[i][j-1] == 'W'){
-                        arr1[i][j] = 'B';
-                    } else if(arr1[i][j-1] == 'B'){
-                        arr1[i][j] = 'W';
-                    }
-
-                    if(arr2[i][j-1] == 'W'){
-                        arr2[i][j] = 'B';
-                    } else if(arr2[i][j-1] == 'B'){
-                        arr2[i][j] = 'W';
-                    }
+            for (int j=0; j<M; j++){
+                if(str.charAt(j) == 'W'){
+                    arr[i][j] = true;
+                } else{
+                    arr[i][j] = false;
                 }
             }
         }
 
-        int wcount = 0;
-        int bcount = 0;
+        int N_row = N - 7;
+        int M_col = M - 7;
 
-        for(int i = 0; i < N; i++){
-            for (int j = 0; j < M; j++) {
-                if(arr[i][j] != arr1[i][j]){
-                    wcount++;
-                }
-                if(arr[i][j] != arr2[i][j]){
-                    bcount++;
-                }
+        for(int i=0; i<N_row; i++){
+            for(int j=0; j<M_col; j++){
+                find(i,j);
             }
         }
+        System.out.println(min);
+    }
 
-        System.out.println(wcount);
-        System.out.println(bcount);
+    public static void find(int x, int y){
+        int end_x = x + 8;
+        int end_y = y + 8;
+        int count = 0;
 
-        System.out.println(Math.min(wcount, bcount));
+        boolean TF = arr[x][y]; // 첫번째 칸의 색
+
+        for(int i=x; i<end_x; i++){
+            for (int j=y; j<end_y; j++){
+                if(arr[i][j] != TF){
+                    count++;
+                }
+
+                TF = (!TF);
+            }
+
+            TF = !TF;
+        }
+
+        count = Math.min(count, 64 - count);
+
+        min = Math.min(min, count);
     }
 }
