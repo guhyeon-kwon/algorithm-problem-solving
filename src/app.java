@@ -11,7 +11,9 @@ import baekjoon.bruteForce.Decomposition;
 import baekjoon.forQ.Gugudan;
 import baekjoon.forQ.Snum;
 import baekjoon.forQ.Star;
+import baekjoon.greedy.Coin;
 import baekjoon.greedy.Greedy_5;
+import baekjoon.greedy.Treasure;
 import baekjoon.ifQ.Alarm;
 import baekjoon.ifQ.LeapYear;
 import baekjoon.ifQ.Quadrant;
@@ -176,7 +178,13 @@ public class app {
 
 //        new BigBody().solve();
 
-        new Chase().solve();
+//        new Chase().solve();
+
+//        new SugarDelivery().solve();
+
+//        new Coin().solve();
+
+        new Treasure().solve();
     }
 
 }
